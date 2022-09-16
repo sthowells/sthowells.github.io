@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Seth Howells</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Hello World,<br />
+						Meet Seth Howells</h1>
+						<p>A passionate Data Science graduate student interested in all things AI, Machine Learning, & Computer Vision Intelligence. <br />
+							Work Experience: 3 years - supply chain management; 2 years - automating financial analysis. <br /> 
+							Lewis Univsity: 3.93 GPA  Masters Data Science - MSDS (graduating August 2022)</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="compviz.html" class="logo">Check it Out</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="compviz.html">Computer&nbspVision</a></li>
+                            <li class="active"><a href="ml.html">Machine&nbspLearning</a></li>
+							<li><a href="generic.html">About&nbspMe</a></li>
+							<li><a href="capstone.html">MSDS&nbspCapstone</a></li>
+							<li><a href="published.html">Published&nbspPapers</a></li>
+							<li><a href="resume.html">Resume</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+                <div id="main">
+                    <!-- Post -->
+                        <section class="post">
+                            <header class="major">
+                                <h1>Machine Learning & Data Analytics</h1>
+                                <p>"You can have data without information, but you cannot have information without data."<br /> -Daniel Keys Moran</p>
+                            </header>
+                            <div class="image main"><img src="images/Deep-Learning-vs-Machine-Learning.jpg" alt="" /></div>
+                            <p>Machine Learning requires careful data analysis in feature selection and engineering. In each project you will
+                                find an exploratory data analysis section (EDA) which explores the features and target variables. These sections often
+                                contain data visualization and table analytics to get a better understanding of the underlying relationships. My basic approach
+                                to each supervised learning project is:<br /> 
+                                1) Import data<br /> 
+                                2) Data preprocessing<br /> 
+                                3) Exploratory Data Analysis<br /> 
+                                4) Encode variables<br /> 
+                                5) Split into training/testing sets and apply feature scaling/normalization<br /> 
+                                6) Run several Machine Learning algorithms and interpret their scores<br /> 
+                                7) Build a deep learning neural network<br /> 
+                                8) Compare all models results.
+                            </p>
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="#">Classifying Baseball Pitch Based on Ball Spin</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/bbgif.gif" alt="" /></a>
+									<p>Baseball is often thought as a game of many statistics. Pitching is one of the best ways to analyze the game. In this machine learning
+										project I used several machine learning techniques to classify the type of pitch based on the baseball's X,Y,Z coordinates from the time
+										it leaves the pitcher's hand to when the ball crosses homeplate. The MLB dataset contains 40 features with 12 classifications of pitch types. 
+									</p>
+									<p class="tab">Results of Supervised Learning algorithms below. My deep convolutional neural network built with Keras Dense layers (4) perfomed 1 percent more
+										accurate than XGBoost - a solid benchmark for classification problems - for an average accuracy of 85.55%.</p>
+									<ul>
+										<li>Decision Tree: 78.55% accuracy</li>
+										<li>Random Forest: 81.34% accuracy</li>
+										<li>kNN: 81.66% accuracy</li>                                                  
+										<li>Gaussian Naive Bayes: 65.11% accuracy</li>
+										<li>Extreme Gradient Boost: 84.40% accuracy</li>
+										<li>Deep-CNN (my model): 85.55% accuracy</li>
+									</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/sthowells?tab=repositories" class="button">Github Code</a></li>
+										<li><a href="#" class="button">Examples</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Detecting Vehichle Fraud</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/VehIns.gif" alt="" /></a>
+									<p>Supervised learning algorithms performed on a vehichle insurance dataset containing 94% non-fraudulent and 6% fraudulent insurance claims. The goal
+										of supervised machine learning in this scenario is to train the patterns of fraudulent claims from 80% of the dataset and to validate the training
+										parameters on the remaining 20% and assess the accuracy score through series of classification reports that measure precision, recall, F1-score, and 
+										confusion matrix. Because of the uneven distribution in non-fraudulent claims and fraudulent claims, Synthetic Minority Oversampling Technique (SMOTE)
+										was performed for scaling the features. Label Encoding was performed for most of the categorical features. Most of the features pertain to: 
+										Dates (month, day, year); Car (make, model, year, type of vehichle), Person (sex, marital status, age); Policy (policy type, deductible, policy number). </p>
+									<p class="tab">Results of Supervised Learning algorithms below. </p>
+									<ul>
+										<li>Decision Tree: 90% accuracy</li>
+										<li>Random Forest: 94% accuracy</li>
+										<li>kNN: 85% accuracy</li>                                                  
+										<li>Adaboost: 94% accuracy</li>
+										<li>Bagging: 95% accuracy</li>
+									</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/sthowells?tab=repositories" class="button">Github Code</a></li>
+										<li><a href="#" class="button">Examples</a></li>
+									</ul>
+								</article>	
+								<article>
+									<header>
+										<h2><a href="#">Korea Sports Foundation Body Performance Classification</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/BodyPerf.gif" alt="" /></a>
+									<p>Korea Sports Promotion Foundation (KSPO) has been dedicated toward advancing active lifestyles through sports for its South Korean citizens by nearly 
+										investing 7 billion dollars since being established in 1989. This supervised machine learning study compares different models to predict people 
+										into labelled categories. I found ensemble methods, random forest and extreme gradient boosting, and deep neural networks to classify new people 
+										3 times as accurate as random selection with around 75% accuracy. Furthermore, I found that the original 11 features can be reduced down to only
+										5 features, through feature ranking and Prinicipal Component Analysis, for a cost of 2% accuracy reduction. This means that South Korea Sports staff
+										can automatically classify new people into their 4 categories of body performance with simple measurements like Age, BMI, blood pressure rather than
+										measuring more difficult features like broad jump, grip force, or activity counts like sit-ups.<br /> 
+										<p class="tab">Results of Supervised Learning algorithms below. My deep convolutional neural network contains 4 fully connected layers with 170,884 trainable 
+											parameters.</p>
+										<ul>
+											<li>Decision Tree: 64.84% accuracy</li>
+											<li>Random Forest: 73.72% accuracy</li>
+											<li>Gaussian Naive Bayes: 53.98% accuracy</li>
+											<li>Support Vector Machine: 63.79% accuracy</li>
+											<li>Extreme Gradient Boost: 75.85% accuracy</li>
+											<li>Deep-CNN (my model): 73.00% accuracy</li>
+										</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/sthowells?tab=repositories" class="button">Github Code</a></li>
+										<li><a href="#" class="button">Examples</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Driving Behavior Classification Based on X,Y,Z coordinates</a></h2>
+									</header>
+									<td>
+										<div class="image main">
+										  <img class="top" src="images/DriBeh.gif" />
+										</div>
+									</td>
+									<p>Supervised machine learning algorithms were implemented to learn the traits of four driver behaviours: 1) sudden acceleration, 2) sudden right turn, 
+										3) sudden left turn, 4) sudden break. The dependent variables are based on 60 independent variables that relate to the accelerometer  measured in
+										the X,Y,Z axis in meters per second. Three different drivers (age: 27, 28, 37) driving three different car models 
+										(Ford Fiesta 1.4,  Ford Fiesta 1.25, Hyundai i20) were used in the dataset. <br /> 
+									<p class="tab">Results of Supervised Learning algorithms below. My Keras CNN model (100 epochs) outperformed decision tree, but fell short of 
+										random forest ensemble method. The confusion matrix of the CNN shows one observation being classified as a sudden left turn when in was actually
+										a sudden acceleration.</p>
+									<ul>
+										<li>Decision Tree: 99.10% accuracy</li>
+										<li>Random Forest: 100.00% accuracy</li>
+										<li>Deep-CNN (my model): 99.32% accuracy</li>
+									</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/sthowells?tab=repositories" class="button">Github Code</a></li>
+										<li><a href="#" class="button">Examples</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">USA Real Estate Price Regression Predictions wtih ML and Deep neural networks</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/US-Realtor.gif" alt="" /></a>
+									<p>Supervised Learning algorithms for regression were implemented to predict real estate prices by assessing the Mean Average Error, which provides a metric
+										to determine the difference between predicted value and the true value. Predictions were made by training the following features: beds, baths, house size,
+										acre lot, zipcode, state, date sold. 900k observations were present in the dataset ranging from 12 different US states. House prices range from $10,000 to
+										$60,000,000 with $450,000 as the median and $749,200 as the average house price. Although the data is skewed from different US states and zipcodes, the 
+										primary point of analysis is to compare different SL models with my own Deep neural network using Tensorflow and Keras.</p>
+									<p class="tab">Results of Supervised Learning algorithms measured by MAE, which tells us how far off the prediction was to the actual values based on the 
+										input features. </p>
+									<ul>
+										
+										<li>Mean Absolute Error using Decision Tress : 15,203.53</li>
+										<li>Mean Absolute Error using Random Forest: 22,209.82</li>
+										<li>Mean Absolute Error using XGBoost:  158,738.68</li>
+										<li>Mean Absolute Error using RANSAC Regressor: 491,908.11</li>
+										<li>Mean Absolute Error using DNN (my model): 117,695.53</li>
+									</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/sthowells?tab=repositories" class="button">Github Code</a></li>
+										<li><a href="#" class="button">Examples</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Gender of Voice Prediction:</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/gendervoice.gif" alt="" /></a>
+									<p>Supervised Learning algorithms implemented to predict the gender of voice. 20 features were trained to predict Male or Female voices across
+										3,168 observations with equal distribution. Results of Supervised Learning algorithms below.</p>
+										<ul>
+											<li>Decision Tree: 97.63% accuracy</li>
+											<li>Random Forest: 97.48% accuracy</li>
+											<li>Support Vector Machine: 97.63% accuracy</li>
+											<li>XGBoost: 97.48% accuracy</li>
+											<li>CNN (my model): 97.48% accuracy</li>
+										</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/sthowells?tab=repositories" class="button">Github Code</a></li>
+										<li><a href="#" class="button">Examples</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+										<h2><a href="#">Statistics Papers with SAS</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/stat.jpeg" alt="" /></a>
+									<p>Foundation of understanding data structures and statistical analysis. SAS and Python primarily used for exploration and Learning</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/sthowells/ResearchPaper_Analysis" class="button">Github Link</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Other Python and Java<br />
+										scripts for Data Science</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/LinPlot.png" alt="" /></a>
+									<p>Ranging from basic to advance, python and java used for various tasks mostly related to tabular data.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/sthowells?tab=repositories" class="button">Github Link</a></li>
+									</ul>
+								</article>
+
+							</section>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Pittsburgh, PA 15206<br /></p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(484) 793-2356</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">howells.seth@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
